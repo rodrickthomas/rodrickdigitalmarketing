@@ -12,6 +12,13 @@ body {
     background-color: transparent;
     text-decoration: none;
   }
+  .WightPaper{
+    background-color: rgb(1, 16, 16);
+    font-size: 40px;
+    display: inline-block; 
+    color: azure;
+      
+  }
   
   a:visited {
     color: rgb(151, 18, 223);
@@ -85,3 +92,4 @@ body {
               background-color: teal; 
           }
       }
+      
