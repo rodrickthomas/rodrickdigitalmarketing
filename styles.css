@@ -12,6 +12,43 @@ body {
     background-color: transparent;
     text-decoration: none;
   }
+  .cta-banner {
+    background: linear-gradient(90deg,#451821,#4a314d 50%,#1a3f6e);
+    background-size: cover;
+    background-position: 50%;
+    height: 40%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    color: #fff;
+    justify-content: start!important;
+    align-items: center;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+button {
+    background-color: #da2b27;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
   .WightPaper{
     background-color: rgb(1, 16, 16);
     font-size: 40px;
@@ -42,8 +79,20 @@ body {
     width:300px;
   margin:auto;
   
+  
   }
-
+  ._ngcontent-wao-c32] {
+    background: linear-gradient(90deg,#451821,#4a314d 50%,#1a3f6e);
+    background-size: cover;
+    background-position: 50%;
+    height: 40%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    color: #fff;
+    justify-content: start!important;
+    align-items: center;
+    border-radius: 15px;
   .con{
     background-color: #FFF4A3;
     width:300px;
