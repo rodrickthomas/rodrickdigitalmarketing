@@ -9,13 +9,16 @@
             margin: 0;
             padding: 0;
             text-align: center; /* Centers the content */
-            background-color: #f4f4f4;
+            background-color: #000000;
         }
         .container {
             max-width: 600px;
             margin: auto;
-            background: #ffffff;
+            background: #fbfbfb;
             padding: 20px;
+    
+            border-spacing: 0px;
+            
         }
         .header {
             font-size: 24px;
@@ -30,17 +33,40 @@
         }
         .button {
             display: inline-block;
-            background-color: #ff0000; /* Red background */
+            background-color: #000000; /* Red background */
             color: #ffffff; /* White text */
             padding: 10px 20px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 50px;
             font-weight: bold;
         }
         img {
-            max-width: 90%;
-            height: 500px;
+            max-width: 100%;
+            height: 300px;
         }
+        .reg {
+    color: black; /* Sets text color to black */
+    text-decoration: underline; /* Underlines the text */
+    font-size: 12px; /* Sets font size to 10px */
+}
+.work {
+    color: black; /* Sets text color to black */
+    ; /* Underlines the text */
+    font-size: 12px; /* Sets font size to 10px */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#two {
+            max-width: 600px;
+            margin: auto;
+            background: rgb(185, 151, 250);
+            padding: 20px;
+            margin-top: 0px;
+        }
+        .img1 {
+    width: 100%; /* Makes the image full width */
+    display: block; /* Ensures the image takes up the full line */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
     </style>
 </head>
 <body>
@@ -50,10 +76,21 @@
     <p>Dear Rodrick Thomas,
         ​<br>
         We're excited to announce the launch of our Launching AWS Certified Cloud Practitioner Master Class</p>
-    <p>This is your second paragraph. You might want to provide some more detailed information here, or build on the introduction.</p>
-    <img src="https://ci3.googleusercontent.com/meips/ADKq_NZ3kams6nvOvouTA3vyHNiOGMO3wUfIM-bUpMSSamGzfG9sn6EZRtVwunfwIp5Tz4Y8A5k9PwDkEON03QnA-2wJUN8F_DM4c9eTNE8ZZIiIzcJYfJF1fAS5Jt8KRlotJu2x=s0-d-e1-ft#https://embed.filekitcdn.com/e/t1AhzqcuLFck3q1LfuQZYB/r3uDuhAukNvBxqTStP71bP" alt="Descriptive text for your image">
-    <p>This is your third paragraph. After the visual break provided by the image, this is a good place to conclude your message or provide a call to action.</p>
+    <p>Get ready to mark your calendars! AIM is excited to release 2024 event lineup, packed with opportunities for learning, networking, and growth.
+
+        Here’s what’s coming up, sorted by date:</p>
+    <img class="img1" src="https://i.ibb.co/qsfkXfJ/83238000304656056-2-1712829398091-1.jpg" alt="Descriptive text for your image">
+    <div cladd="container" id="two">
+    <p class="reg">REGISTRATIONS OPEN<br><br></p>
+       <p class="work"> <strong>Workshop for Data Engineers with Snowflake Expert</strong>
+        <br><br>
+       <strong>Date:</strong>  25th April<br>
+        Topic: Automating Data Pipelines with Snowflake: Accelerating Data<br> Integration and ETL Workflows
+        <br><br>
+        ● Learn about techniques to enable organisations to automate data integration, transformation, and loading (ETL) processes, streamlining data pipelines and accelerating time-to-insight.
+        <br>● Learn about orchestration tools like Airflow and Prefect and explore best practices for designing scalable and resilient data pipelines..</p>
     <a href="your-link-here" class="button">Click Me!</a>
+</div>
 </div>
 
 </body>
